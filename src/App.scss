@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  background-color: var(--pointer-background-color);
+  color: black;
+
+  --pointer-primary: rgba(0, 48, 227, 0.98);
+  --pointer-background-color: #EBEBEB;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

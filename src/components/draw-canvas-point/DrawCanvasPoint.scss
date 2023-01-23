@@ -1,0 +1,36 @@
+.coordinates-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 16px;
+    z-index: 1;
+  }
+
+  .coordinates {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+
+    input, button:not([disabled]) {
+      min-height: 20px;
+      z-index: 1;
+    }
+
+    &__canvas {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+}
+
